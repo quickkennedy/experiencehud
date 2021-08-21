@@ -22,6 +22,8 @@ Scheme
 		"XPHUD_BlackText"			"0 0 0 255"
 		"XPHUD_BoxBG"				"236 233 216 215"
 		"XPHUD_BoxShadow"			"31 31 28 150"
+		"XPHUD_GreenBar"			"77 232 9 255"
+		"XPHUD_BlueBar"				"46 63 210 175"
 
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -102,7 +104,7 @@ Scheme
 		"HudTrainingHint"			"212 160 23 255"
 		
 		"TanDark"				"117 107 94 255"
-		"TanLight"				"235 226 202 255"
+		"TanLight"				"255 255 255 255"
 		"TanDarker"				"46 43 42 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
@@ -3092,6 +3094,66 @@ Scheme
 				"tall"		"48"
 				"antialias" "1"
 			}
+		}
+
+		CreatoDisplayBold12
+		{
+			"1"
+			{
+				"name"		"CreatoDisplay-ExtraBold"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+
+		CreatoDisplayBold16
+		{
+			"1"
+			{
+				"name"		"CreatoDisplay-ExtraBold"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+
+		CreatoDisplayBold20
+		{
+			"1"
+			{
+				"name"		"CreatoDisplay-ExtraBold"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+
+		CreatoDisplayBold24
+		{
+			"1"
+			{
+				"name"		"CreatoDisplay-ExtraBold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+
+		CreatoDisplayBold32
+		{
+			"1"
+			{
+				"name"		"CreatoDisplay-ExtraBold"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+
+		CreatoDisplayBold48
+		{
+			"1"
+			{
+				"name"		"CreatoDisplay-ExtraBold"
+				"tall"		"48"
+				"antialias" "1"
+			}
 		}			
 	}
 	
@@ -5910,6 +5972,11 @@ Scheme
 		{
 			"font" "resource/fonts/VCR_OSD_MONO.ttf"
 			"name" "VCR OSD Mono"
+		}
+		"9"
+		{
+			"font" "resource/fonts/CreatoDisplay-ExtraBold.otf"
+			"name" "CreatoDisplay-ExtraBold"
 		}
 	}
 }
