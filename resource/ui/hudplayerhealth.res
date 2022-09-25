@@ -78,8 +78,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"-3"
-		"ypos"			"-4"	[$WIN32]
+		"xpos"			"-2"
+		"ypos"			"-2"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"120"
@@ -89,12 +89,13 @@
 		"textAlignment"	"center"	
 		"font"			"VCR48"
 		"fgcolor"		"XPHUD_BoxShadow"
+		"pin_to_sibling" "PlayerStatusHealthValue"
 	}
 	"HealthBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HealthBG"
-		"xpos"			"68"
+		"xpos"			"67"
 		"ypos"			"34"
 		"zpos"			"-1"
 		"wide"			"108"

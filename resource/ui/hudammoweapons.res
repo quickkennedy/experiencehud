@@ -107,8 +107,8 @@
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"VCR48"
 		"fgcolor"		"XPHUD_BoxShadow"
-		"xpos"			"17"
-		"ypos"			"32"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"50"
@@ -116,6 +116,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
+		"pin_to_sibling" "AmmoInClip"
 		
 	}						
 	"AmmoInReserve"
@@ -140,8 +141,8 @@
 		"fieldName"		"AmmoInReserveShadow"
 		"font"			"VCR20"
 		"fgcolor"		"XPHUD_BoxShadow"
-		"xpos"			"118"
-		"ypos"			"37"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"40"
 		"tall"			"27"
@@ -149,6 +150,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"		
 		"labelText"		"%AmmoInReserve%"
+		"pin_to_sibling"	"AmmoInReserve"
 	}									
 	"AmmoNoClip"
 	{
@@ -173,8 +175,8 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"VCR48"
 		"fgcolor"		"XPHUD_BoxShadow"
-		"xpos"			"57"
-		"ypos"			"36"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"5"
 		"wide"			"108"
 		"tall"			"42"
@@ -182,6 +184,6 @@
 		"enabled"		"1"
 		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
-		
+		"pin_to_sibling"	"AmmoNoClip"
 	}									
 }
